@@ -1,4 +1,15 @@
 
+html {
+
+  background: url(images/screentear_vers1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity:85%;
+
+}
+
 body {
 	
 	font-family: 'Anonymous Pro', sans-serif;
@@ -17,6 +28,7 @@ section {
 
 
 
+
 #namezone {
 	position:absolute;
 	width:relative;
@@ -28,6 +40,7 @@ section {
 
 #namezone:hover {
 	text-decoration:line-through;
+
 }
 
 .menu {
@@ -58,7 +71,7 @@ section {
 	z-index: 99;
 }
 
-.responsive-menu{
+.responsive-menu {
 	display: none;
 }
 
